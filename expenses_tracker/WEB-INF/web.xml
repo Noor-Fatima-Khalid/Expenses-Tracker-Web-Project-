@@ -1,0 +1,136 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>validation</servlet-name>
+        <servlet-class>validation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validation</servlet-name>
+        <url-pattern>/validation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>add_user</servlet-name>
+        <servlet-class>add_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>add_user</servlet-name>
+        <url-pattern>/add_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>adminDashboard</servlet-name>
+        <servlet-class>adminDashboard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminDashboard</servlet-name>
+        <url-pattern>/adminDashboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addCategory</servlet-name>
+        <servlet-class>addCategory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCategory</servlet-name>
+        <url-pattern>/addCategory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>viewCategories</servlet-name>
+        <servlet-class>viewCategories</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>viewCategories</servlet-name>
+        <url-pattern>/viewCategories</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateCategory</servlet-name>
+        <servlet-class>updateCategory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateCategory</servlet-name>
+        <url-pattern>/updateCategory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteCategory</servlet-name>
+        <servlet-class>deleteCategory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteCategory</servlet-name>
+        <url-pattern>/deleteCategory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>viewAll</servlet-name>
+        <servlet-class>viewAll</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>viewAll</servlet-name>
+        <url-pattern>/viewAll</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteExpense</servlet-name>
+        <servlet-class>deleteExpense</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteExpense</servlet-name>
+        <url-pattern>/deleteExpense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>userDashboard</servlet-name>
+        <servlet-class>userDashboard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userDashboard</servlet-name>
+        <url-pattern>/userDashboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addExpense</servlet-name>
+        <servlet-class>addExpense</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addExpense</servlet-name>
+        <url-pattern>/addExpense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>viewExpenses</servlet-name>
+        <servlet-class>viewExpenses</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>viewExpenses</servlet-name>
+        <url-pattern>/viewExpenses</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateExpense</servlet-name>
+        <servlet-class>updateExpense</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateExpense</servlet-name>
+        <url-pattern>/updateExpense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteUserExpense</servlet-name>
+        <servlet-class>deleteUserExpense</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteUserExpense</servlet-name>
+        <url-pattern>/deleteUserExpense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+</web-app>

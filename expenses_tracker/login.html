@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <div class="container">
+        <form action="validation" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label>Are you a:</label>
+            <div>
+                <input type="radio" id="admin" name="type" value="admin" required>
+                <label class="radioss" for="admin">Admin</label>
+                
+                <input type="radio" id="user" name="type" value="user" required>
+                <label class="radioss" for="user">User</label>
+            </div>
+            <label for="pswd">Email:</label>
+            <input type="email" id="mail" name="mail" required>
+
+            <label for="pswd">Password:</label>
+            <input type="password" id="pswd" name="pswd" required>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
